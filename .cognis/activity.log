@@ -38,3 +38,4 @@
 2026-05-21T15:49:59  chore: BLACKBOOK redaction pass
 2024-06-05T14:50:10  refactor: I have altered the code. pray I don't alter it further
 2024-06-26T09:07:17  fix(io): handle CRLF line endings
+2024-07-18T16:24:24  refactor(scan): add a JSON schema for output
