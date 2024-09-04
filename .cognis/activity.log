@@ -41,3 +41,4 @@
 2024-07-18T16:24:24  refactor(scan): add a JSON schema for output
 2024-08-09T11:41:31  perf(format): load rules lazily for faster startup
 2024-08-13T18:58:38  docs: clarify usage notes
+2024-09-04T13:15:45  build(report): improve the demo scenario
