@@ -42,3 +42,4 @@
 2024-08-09T11:41:31  perf(format): load rules lazily for faster startup
 2024-08-13T18:58:38  docs: clarify usage notes
 2024-09-04T13:15:45  build(report): improve the demo scenario
+2024-09-26T08:32:52  docs(detect): document the config keys
