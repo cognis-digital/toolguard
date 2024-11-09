@@ -44,3 +44,4 @@
 2024-09-04T13:15:45  build(report): improve the demo scenario
 2024-09-26T08:32:52  docs(detect): document the config keys
 2024-10-18T15:49:59  test: add edge case
+2024-11-09T10:06:06  ci(io): improve error messages with context
