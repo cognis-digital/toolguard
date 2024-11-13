@@ -45,3 +45,4 @@
 2024-09-26T08:32:52  docs(detect): document the config keys
 2024-10-18T15:49:59  test: add edge case
 2024-11-09T10:06:06  ci(io): improve error messages with context
+2024-11-13T17:23:13  chore(scan): add a dry-run flag
