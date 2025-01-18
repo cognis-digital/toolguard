@@ -48,3 +48,4 @@
 2024-11-13T17:23:13  chore(scan): add a dry-run flag
 2024-12-05T12:40:20  chore(format): trim whitespace in parsed fields
 2024-12-27T19:57:27  feat: do or do not, there is no try/except
+2025-01-18T14:14:34  style(report): add a --quiet mode
