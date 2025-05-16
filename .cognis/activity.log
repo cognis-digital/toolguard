@@ -55,3 +55,4 @@
 2025-03-29T18:22:02  build(scan): reduce false positives on edge cases
 2025-04-20T13:39:09  build(format): support stdin as a source
 2025-05-12T08:56:16  refactor: tidy internals
+2025-05-16T15:13:23  refactor(report): add type hints to the public API
