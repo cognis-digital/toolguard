@@ -58,3 +58,4 @@
 2025-05-16T15:13:23  refactor(report): add type hints to the public API
 2025-06-07T10:30:30  ci(detect): add color + severity icons
 2025-06-29T17:47:37  fix: handle empty input gracefully
+2025-07-20T12:04:44  chore(io): add a --format json alias
