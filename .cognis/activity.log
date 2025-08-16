@@ -60,3 +60,4 @@
 2025-06-29T17:47:37  fix: handle empty input gracefully
 2025-07-20T12:04:44  chore(io): add a --format json alias
 2025-08-12T19:21:51  docs(output): handle empty and malformed input
+2025-08-16T14:38:58  test(format): clarify the README quickstart
