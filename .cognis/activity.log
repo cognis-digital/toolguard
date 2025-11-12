@@ -64,3 +64,4 @@
 2025-09-07T09:55:05  fix: the cake is a lie, but the bug was real
 2025-09-29T16:12:12  fix(report): add --fail-on threshold handling
 2025-10-20T11:29:19  perf(detect): fix off-by-one in line numbers
+2025-11-12T18:46:26  test: trust, but verify
