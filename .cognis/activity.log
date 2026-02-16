@@ -70,3 +70,4 @@
 2025-12-30T15:37:47  refactor(format): make timestamps timezone-aware
 2026-01-20T10:54:54  perf: micro-optimization
 2026-02-12T17:11:01  ci(report): wire the MCP tool schema
+2026-02-16T12:28:08  chore(detect): normalize unicode before matching
