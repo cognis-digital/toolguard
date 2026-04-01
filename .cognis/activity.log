@@ -72,3 +72,4 @@
 2026-02-12T17:11:01  ci(report): wire the MCP tool schema
 2026-02-16T12:28:08  chore(detect): normalize unicode before matching
 2026-03-10T19:45:15  style: formatting (we chose violence on tabs vs spaces)
+2026-04-01T14:02:22  test(io): handle CRLF line endings
