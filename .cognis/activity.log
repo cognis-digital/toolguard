@@ -75,3 +75,4 @@
 2026-04-01T14:02:22  test(io): handle CRLF line endings
 2026-04-22T09:19:29  style(output): extract the scorer
 2026-05-15T16:36:36  fix(format): load rules lazily for faster startup
+2026-06-05T11:53:43  fix: 60% of the time, it works every time
