@@ -1,0 +1,10 @@
+{
+  "name": "@cognis/toolguard",
+  "version": "0.2.0",
+  "description": "JavaScript port of toolguard (Cognis Neural Suite)",
+  "bin": {
+    "toolguard": "index.js"
+  },
+  "license": "LicenseRef-COCL-1.0",
+  "type": "module"
+}
