@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "read_file",
+    "arguments": { "path": "README.md" }
+  },
+  {
+    "tool": "http_get",
+    "arguments": { "url": "https://api.example.com/v1/status" }
+  },
+  {
+    "tool": "http_get",
+    "arguments": { "url": "http://169.254.169.254/latest/meta-data/iam/security-credentials" }
+  },
+  {
+    "tool": "delete_file",
+    "arguments": { "path": "/var/data/customers.db" }
+  },
+  {
+    "tool": "read_file",
+    "arguments": { "path": "/home/agent/.ssh/id_rsa" }
+  },
+  {
+    "tool": "web_search",
+    "arguments": { "query": "deploy guide api_key=sk-abcdef0123456789ABCDEF" }
+  }
+]
