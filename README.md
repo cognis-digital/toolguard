@@ -16,7 +16,7 @@
 </div>
 
 ```bash
-pip install cognis-toolguard
+pip install "git+https://github.com/cognis-digital/toolguard.git"
 toolguard scan .            # → prioritized findings in seconds
 ```
 
@@ -46,7 +46,7 @@ agent safety
 ## Quick start
 
 ```bash
-pip install cognis-toolguard
+pip install "git+https://github.com/cognis-digital/toolguard.git"
 toolguard --version
 toolguard scan .                       # scan current project
 toolguard scan . --format json         # machine-readable
