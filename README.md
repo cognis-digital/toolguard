@@ -20,6 +20,45 @@ pip install cognis-toolguard
 toolguard scan .            # → prioritized findings in seconds
 ```
 
+## Usage — step by step
+
+1. **Install** (Python 3.9+):
+
+   ```bash
+   pip install toolguard
+   ```
+
+2. **Check a single tool-call** against the policy (built-in by default). Pass the tool name and its arguments as `key=value`:
+
+   ```bash
+   toolguard check --tool shell --arg cmd="rm -rf /"
+   ```
+
+   Or pipe a tool-call as JSON on stdin:
+
+   ```bash
+   echo '{"tool":"shell","args":{"cmd":"ls"}}' | toolguard check
+   ```
+
+3. **Use your own policy** file:
+
+   ```bash
+   toolguard check --policy policy.json --tool http --arg url="https://example.com"
+   ```
+
+4. **Audit a batch** of tool-calls from a JSON array and read the verdicts as JSON:
+
+   ```bash
+   toolguard --format json audit --policy policy.json --input calls.json | jq '.[] | {tool, decision}'
+   ```
+
+5. **Inspect / version the active policy** in CI:
+
+   ```bash
+   toolguard policy --policy policy.json > active_policy.json
+   ```
+
+
 ## Contents
 
 - [Why toolguard?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
